@@ -1,0 +1,13 @@
+arr=[10,20,30,40,50]
+console.log("starting",arr)
+arr.push(60)
+console.log("after push",arr)
+arr.pop()
+arr.pop()
+console.log("after two times pop",arr)
+arr.shift()
+console.log("after shifting",arr)
+arr.unshift(9)
+console.log("after unshifting",arr)
+console.log(arr.includes(40))
+console.log(arr.indexOf(40))
