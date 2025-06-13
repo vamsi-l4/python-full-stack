@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo app</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id="main-container">
+        <div id="todo-container">
+            <div class ="item pending">
+         <select onchange="updatestatus(this)">
+            <option value="pending">Pending</option>
+            <option value="Done">Done</option>
+        </select>
+        </div>
+
+        </div>
+            
+        <div id="input-container">
+            <input id="todoname" type="text" placeholder="enter todo to add">
+            <button id="Add"><span style="color:green">+</span>Add one</button>
+        <div\>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
